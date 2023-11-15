@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Including bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <title>Laemar Dealz</title>
+  <style>
+    /* Custom CSS for the cover image and text */
+    .cover {
+      background-image: url('https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2hvcHBpbmd8ZW58MHx8MHx8fDA%3D');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .logo {
+      width: 250px;
+      margin: 0 auto;
+      margin-top: 20%;
+
+    }
+
+    .slogan {
+      color: red;
+      font-size: 24px;
+      margin-top: 20px;
+      text-shadow: 2px 2px 4px #000;
+      font-style: italic;
+      font-weight: bolder;
+    }
+
+    #footer {
+      margin-top: 20px;
+
+    }
+  </style>
+</head>
+
+<body class="bg-secondary">
+  <!-- Including header  -->
+  <div id="header">
+  </div>
+  <!-- cover image  -->
+  <div class="cover">
+    <img src="./common/Laemar.jpg" alt="Website Logo" class="logo">
+    <p class="slogan">Laemar Dealz</p>
+  </div>
+  <div class="container">
+    <!-- header  -->
+
+    <h1 class="text-center border border-black border-5 bg-danger"> Our Products</h1>
+    <!-- adding card for the featured products  -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-indicators" style="bottom: -50px;">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner m-auto">
+
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img src="https://imagescdn.thecollective.in/img/app/product/9/906177-11165969.jpg?" height="200"
+                  class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">Versace
+                    Men Black Clean Slim-Fit Jeans
+                  </p>
+                  <h5 class="card-title text-white">Rs 15,500</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img src="https://imagescdn.thecollective.in/img/app/product/9/915485-11395822.jpg?" height="200"
+                  class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">Versace Jeans Couture
+                    Men Black Baroque Print Shirt
+                  </p>
+                  <h5 class="card-title text-white">Rs 29,500</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img src="https://imagescdn.thecollective.in/img/app/product/8/885193-10649057.jpg?" height="200"
+                  class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">Fred Perry
+                    Men White Contrast Side Trim Sneakers
+                  </p>
+                  <h5 class="card-title text-white">Rs 13,500</h5>
+                  <a href="#" class="btn btn-danger">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img src="https://imagescdn.thecollective.in/img/app/product/9/912227-11292383.jpg?" height="200"
+                  class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">Hugo
+                    Men Olive Solid Red Patch Pocket Logo Shirt
+                  </p>
+                  <h5 class="card-title text-white">Rs 12,999</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img src="https://imagescdn.thecollective.in/img/app/product/9/929604-11772964.jpg?" height="200"
+                  class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">Ted Baker
+                    Women Black Knit Bodice Dress with Midi Skirt
+                  </p>
+                  <h5 class="card-title text-white">Rs 19,999</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img src="https://imagescdn.thecollective.in/img/app/product/9/901470-11062241.jpg?" height="200"
+                  class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">Paige
+                    Women Dark-Wash ANESSA FLARE Jeans
+                  </p>
+                  <h5 class="card-title text-white">Rs 15,999</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img src="https://imagescdn.thecollective.in/img/app/product/8/806675-9577528.jpg?" height="200"
+                  class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">Ted Baker
+                    Women Pink Leather Bow Ballet Pumps
+                  </p>
+                  <h5 class="card-title text-white">Rs 11,999</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img src="https://imagescdn.thecollective.in/img/app/product/9/901801-11071413.jpg?" height="200"
+                  class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white"> Versace
+                    Women Black Barque Chain Bodycon Dress
+                  </p>
+                  <h5 class="card-title text-white">Rs 29,499</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img
+                  src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTsu0qhTotjY39Wi4tBOekN1gK9sCn5T-5X9axh9WIH6eciTczfEbB2ysSts89rmcJmETJuQlj177QdxZBiymN_NGkPM3KM4DZyZ83O4_XI"
+                  height="200" class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">Boys Black & Orange Printed Pure Cotton Clothing Set
+                  </p>
+                  <h5 class="card-title text-white">Rs 999</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_04_T88_4666C_E4_X_EC_0?$Intl_PDP_Tab$"
+                  height="200" class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">M&S COLLECTION
+                    Cotton Rich Mickey Bomber
+                  </p>
+                  <h5 class="card-title text-white">Rs 1999</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTfOIyNmFk8cOTop3XRKo-LnkNpda5d_wPm99NUiP49SXHPwf08TglhPDYg2JOvEB_kgH0jJZHMKTExrsbkK9GrgZFWIdg2A_Iz_D3C4Tctq14Q3yjsM8-I"
+                  height="200" class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">U.S. Polo Assn Kids Brand Logo Printed Sweatshirt
+                  </p>
+                  <h5 class="card-title text-white">Rs 1099</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 15rem;">
+                <img
+                  src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSxcFYf0g8whxp0qz2qH4Je9Vb8CpVZrpU35ooZWZ2KkPvCKeUiQcAe-BgyQKSzZv8zYknG3UxGySxU6XSTZ-vjcGSjPLVtWAKNNsjOCeECJq8BhaLASz97"
+                  height="200" class="card-img-top" alt="...">
+                <div class="card-body bg-dark">
+                  <p class="card-text text-white">Fear of God ESSENTIALS Kids Taupe Bonded Sweatshirt
+                  </p>
+                  <h5 class="card-title text-white">Rs 2099</h5>
+                  <a href="#" class="btn btn-danger">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next active" type="button" data-bs-target="#carouselExample"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Including footer  -->
+  <div id="footer" class="mt-5"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- adding the function to call header and footer dynamically -->
+  
+ }
+  <script>
+    $(function () {
+      $('#header').load('./common/header.html');
+      $('#footer').load('./common/footer.html');
+    })
+  </script>
+</body>
+
+</html>
